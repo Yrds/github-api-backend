@@ -5,7 +5,7 @@ function getUsers(since = 1) {
 }
 
 function getUserDetails(userName){
-    return httpClient.get({path: '/users/' + userName + '/details'});
+    return httpClient.get({path: '/users/' + userName});
 }
 
 function getUserRepos(userName){
