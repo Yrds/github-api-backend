@@ -1,0 +1,22 @@
+{
+    "name": "github-node-middleware",
+    "version": "0.0.1",
+    "description": "A nodeJS server middleware between github api with a Restful api",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "keywords": [
+        "node",
+        "github",
+        "api"
+    ],
+    "author": "Yuri Santos",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.17.1",
+        "memory-cache": "^0.2.0"
+    }
+}
