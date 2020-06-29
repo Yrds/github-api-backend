@@ -13,4 +13,4 @@ const userController = require('./controllers/user');
 app.use(cors(corsOptions));
 app.use('/users', userController);
 
-app.listen(port, () => console.log('Starting application'));
+app.listen(port, () => console.log('Starting application on port ' + port));
